@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momondo_layout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header Section Start -->
+    <header>
+        <ul>
+            <li><a href="index.html">
+                    <img src="./assets/img/logo-momondo.png" alt="logo" width="80px" height="40px">
+                </a></li>
+            <li><a href="javascript:void()" class="active">Flights</a></li>
+            <li><a href="javascript:void()">Hotel</a></li>
+            <li><a href="javascript:void()">Cire Hire</a></li>
+            <li><a href="javascript:void()">Trip Finder</a></li>
+        </ul>
+        <ul>
+            <li><a href="javascript:void()">
+                    <img src="./assets/img/us-flag.jpg" alt="us-flag" width="20px" height="15px">
+                    English
+                </a></li>
+            <li><a href="javascript:void()">Log In</a></li>
+        </ul>
+
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Banner Section Start -->
+
+    <section class="banner">
+        <h1>"The best place to find<br>the chepest airfares"</h1>
+        <h2>- every single time</h2>
+
+        <form action="">
+            <div>
+                <div class="switchbutton">
+                    <button type="button" class="active">
+                        <i class="fa-solid fa-plane-departure"></i>Flight
+                    </button>
+                    <button type="button">
+                        <i class="fa-solid fa-shop"></i>Hotels
+                    </button>
+
+
+                    <button type="button">
+                        <i class="fa-solid fa-car"></i>Cars
+                    </button>
+                </div>
+                <div class="searchForm">
+                    <label for="origin-city">origin-city</label>
+                    <input type="text" name="origin-city" id="origin-city" placeholder="Enter origin-city">
+
+                    <span><i class="fa-solid fa-arrow-righ-arrow-left"
+                            style="color: aqua; margin-right: 5px;"></i></span>
+
+                    <label for="destination-city">Destination City</label>
+                    <input type="text" name="destination-city" id="destination-city" placeholder="Enter Destination">
+
+                    <label for="trave-start-date">Start Date</label>
+                    <input type="date" name="trave-strt-date" id="trave-start-date" placeholder="Enter Start Date">
+
+                    <label for="trave-enf-date">End Date</label>
+                    <input type="date" name="trave-end-date" id="trave-end-date" placeholder="Enter End Date">
+
+                    <label for="Select Passenger">Select Passenger</label>
+                    <Select name="Select Passenger" id="Select-passenger">
+                        <option value="1-Passenger">1 Passenger</option>
+                        <option value="2-Passenger">2 Passenger</option>
+                        <option value="3-Passenger">3 Passenger</option>
+                        <option value="4-Passenger">4 Passenger</option>
+                        <option value="5-Passenger">5 Passenger</option>
+                    </Select>
+                    <div>
+                        <i class="fa-solid fa-plane-departure"></i> Trip type:<select>
+                            <option value="selected">Return Trip</option>
+                            <option>First Trip</option>
+                        </select>
+                        <i class="fa-sharp fa-solid fa-ticket"></i>&nbsp;&nbsp;Class:<select>
+                            <option value="selected">Economy</option>
+                            <option>First</option>
+                            <option>Business</option>
+                        </select>
+                        <input type="checkbox" name="ticket">Direct Flight Only <input type="checkbox"
+                            name="ticket">Include nearby airport
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button type="submit" class="smt">Search</button>
+            </div>
+        </form>
+    </section>
+    <!-- Banner Section End -->
+
+    <!-- Fun Section Start -->
+    <div class="fun">
+
+        <h2>
+            SOME FUN WE COVERD
+        </h2>
+        <ul>
+            <li><i class="fa-solid fa-person-biking"></i><br><span>5670M</span><br> TRACK</li>
+            <li><i class="fa-solid fa-route"></i><br>480 M <br>DISTANCE COVERED</li>
+            <li><i class="fa-solid fa-person-hiking"></i><br>5670 KM<BR>ALTITUTE</li>
+            <li><i class="fa-solid fa-sailboat"></i><br>180 KM<br>SAILING DISTANCE</li>
+            <li><i class="fa-solid fa-cloud-sun"></i><br>570 Days<br>SPEND ADVENTURE</li>
+            <li><i class="fa-solid fa-dove"></i><br>567 M<br>JUGLE DISTANCE</li>
+        </ul>
+    </div>
+    <!-- Fun Section End -->
+
+    <!-- newslatter section Start -->
+    <div class="newsletter">
+        <h2>
+            SUBSCRIBE FOR OUR TRAVEL NEWSLETTER
+        </h2>
+        <P>
+            Join our comunnity of over 300000 globle readers who reveive email filled with news,<br>
+            promotion and other good staff from G Adventure.
+        </P>
+        <input type="text"><input type="button" name="Email"
+            value="Enter your Email Address  ....."><button>Search</button>
+    </div>
+    <!-- newslatter section End -->
+
+    <!-- Place section Start -->
+    <section class="place">
+        <h1>POPULER DESTINATION</h1>
+        <ul>
+            <li><img src="/assets/img/rome.jpg" alt="rome" height="50%" width="100%">
+                <h3><span style="color: #ff874f;">$900</span>Rome lovence & Vecice<br>9-Night Vacation w/Air</h3>
+                <p>This is The Lowest grioe we've Seen in four years for a one Night</p>
+            </li>
+            <li><img src="/assets/img/aust.jpg" alt="rome" height="50%" width="100%">
+                <h3><span style="color: #ff874f;">$1099</span>Australia:Sydney & Fiji<br>Vacation w/Air Save <span
+                        style="color: #ff874f;">$550</span></h3>
+                <p>This is The Lowest grioe we've Seen in four years for a one Night</p>
+            </li>
+            <li><img src="/assets/img/germany.jpg" alt="rome" height="50%" width="100%">
+                <h3><span style="color: #ff874f;">$1099</span>Greek Islands B-Night<br>Vacation w/Air Save <span
+                        style="color: #ff874f;">$1060</span></h3>
+                <p>This is The Lowest grioe we've Seen in four years for a one Night</p>
+            </li>
+            <li><img src="/assets/img/sydney.jpg" alt="rome" height="50%" width="100%">
+                <h3><span style="color: #ff874f;">$899</span>Ireland & Germany 6_Night<br>Adventure w/Air</h3>
+                <p>This is The Lowest grioe we've Seen in four years for a one Night</p>
+            </li>
+        </ul>
+        <ul>
+            <li><img src="/assets/img/blue.jpg" alt="rome" height="50%" width="100%">
+                <h3><span style="color: #ff874f;">$1299</span>Mororcco 4 blue Escotland<br>Vacation w/Air Save <span
+                        style="color: #ff874f;">$1000</span></h3>
+                <p>This is The Lowest grioe we've Seen in four years for a one Night</p>
+            </li>
+            <li><img src="/assets/img/kabo.jpg" alt="rome" height="50%" width="100%">
+                <h3><span style="color: #ff874f;">$639</span>Cobo All Inchuave Daach<br>Getway w/Air Save <span
+                        style="color: #ff874f;">$250</span></h3>
+                <p>This is The Lowest grioe we've Seen in four years for a one Night</p>
+            </li>
+            <li><img src="/assets/img/multicity.jpg" alt="rome" height="50%" width="100%">
+                <h3><span style="color: #ff874f;">$2299</span>New Zealand multicity<br>Trip w/Towe & Car Rostet</h3>
+                <p>This is The Lowest grioe we've Seen in four years for a one Night</p>
+            </li>
+            <li><img src="/assets/img/turkey.jpg" alt="rome" height="50%" width="100%">
+                <h3><span style="color: #ff874f;">$1942</span>& UP Turkey & NL Trip w/Air<br>Gulfdad Towers & Hotels
+                </h3>
+                <p>This is The Lowest grioe we've Seen in four years for a one Night</p>
+            </li>
+        </ul>
+    </section>
+    <!-- Place section End -->
+
+    <!-- Calculate section Start -->
+    <section class="calculate">
+        <H1>GET A QUICK ESTIMATE!</H1>
+        <h4><u>GET A </u>PROFFESIONAL HELP</h4>
+        <ul>
+            <li><Select>
+                    <option value="travel">Travel perpose</option>
+                </Select></li>
+            <li> <label for="trave-start-date">Start Date</label>
+                <input type="date" name="trave-strt-date" id="trave-start-date" placeholder="Enter Start Date">
+            </li>
+            <li><Select>
+                    <option value="travel">Number of people</option>
+                </Select></li>
+            <li><input type="mail"name="mail" placeholder="Your Email"></li>
+            <li><input type="submit"name="calculate" value="CALCULATE NOW"></li>
+        </ul>
+    </section>
+    <!-- Calculate section End -->
+</body>
+
+</html>

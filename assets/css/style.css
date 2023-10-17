@@ -299,7 +299,7 @@ margin-left: 12.5%;
 }
 .blog {
     width: 100%;
-    height: 300px;
+    height: 350px;
     background: #fff;
     color: #000000;
     text-align: center;
@@ -309,3 +309,40 @@ margin-left: 12.5%;
     margin-top: 20px;
     font-size: 18px;
 }
+
+.context{
+    background: #ffffff;
+    width: 70%;
+    height: 300px;
+    margin-left: 20%;
+    margin-top: 2%;
+    align-items:flex-end ;
+
+   
+}
+
+/* ========================== */
+.context ul {
+    display:flex;
+    text-align: left;
+}
+
+.context ul li{
+    list-style: none;
+}
+.context h4,p{
+    padding-left: 25px;
+    padding-right: 70px;
+}
+.context input{
+    
+}
+
+
+.footer{
+    width: 100%;
+    height: 500px;
+    background: #1D1928;
+    color: #fff;
+}
+

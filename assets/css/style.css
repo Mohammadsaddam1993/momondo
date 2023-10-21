@@ -1,15 +1,16 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
-a{
+a {
     color: #fff;
     text-decoration: none;
 }
+
 /* Header Section Start */
-header{
+header {
     width: 100%;
     height: 60px;
     color: #fff;
@@ -19,18 +20,21 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-header ul li{
+
+header ul li {
     margin-right: 30px;
     display: inline-flex;
     align-items: center;
     padding-bottom: 15px;
 }
-header ul li a.active{
+
+header ul li a.active {
     color: #ff4f7b;
 }
+
 /* Header Section End */
 /* Banner Section Start */
-.banner{
+.banner {
     width: 100%;
     height: 903px;
     color: #fff;
@@ -39,24 +43,27 @@ header ul li a.active{
     background-size: 100% 100%;
     position: relative;
 }
-.banner h1{
-top: 20%;
-left: 15%;
-color: black;
-font-size: 70px;
-position: absolute;
-font-weight: normal;
-font-family: 'Franklin Gothic Medium',;
+
+.banner h1 {
+    top: 20%;
+    left: 15%;
+    color: black;
+    font-size: 70px;
+    position: absolute;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', ;
 
 }
-.banner h2{
-   top: 40%;
-   left: 15%;
-   color: black;
-   font-size: 30px;
-   position: absolute;
+
+.banner h2 {
+    top: 40%;
+    left: 15%;
+    color: black;
+    font-size: 30px;
+    position: absolute;
 }
-.banner form{
+
+.banner form {
     width: 70%;
     bottom: 10%;
     left: 15%;
@@ -67,7 +74,8 @@ font-family: 'Franklin Gothic Medium',;
     align-items: center;
     background: #5c327a;
 }
-.banner form button{
+
+.banner form button {
     width: 90px;
     height: 30px;
     border: none;
@@ -75,22 +83,27 @@ font-family: 'Franklin Gothic Medium',;
     font-weight: 500;
     background: #43215c;
 }
-.banner form button.active{
+
+.banner form button.active {
     background: #fc2d4b;
 }
-.banner form label{
+
+.banner form label {
     display: none;
 }
-.banner form .searchForm{
+
+.banner form .searchForm {
     margin-top: 8px;
 }
+
 .banner form .searchForm input,
-.banner form .searchForm Select{
+.banner form .searchForm Select {
     width: 200px;
     height: 35px;
     margin-right: 5px;
 }
-.banner form button.smt{
+
+.banner form button.smt {
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -98,74 +111,84 @@ font-family: 'Franklin Gothic Medium',;
     color: #fff;
     background: #fc2d4b;
 }
-.banner form .searchForm div select{
+
+.banner form .searchForm div select {
     width: auto;
     height: 35px;
     background: none;
     border: none;
     color: #fff;
 }
-.banner form .searchForm div select option{
+
+.banner form .searchForm div select option {
     color: black;
 }
-.banner form .searchForm div input{
+
+.banner form .searchForm div input {
     width: 15px;
     height: 15px;
 }
+
 /* Banner Section End */
 
 /* FUN section Start */
-.fun{
+.fun {
     width: 100%;
-    height:488px;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/fun_background.jpg);
-    background-size:100% 100%;
-   ;
+    height: 488px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fun_background.jpg);
+    background-size: 100% 100%;
+    ;
 }
-.fun h2{
+
+.fun h2 {
     text-align: center;
     padding: 80px 80px;
     font-size: 30px;
     font-weight: 400;
     color: #fff;
 }
-.fun ul{
+
+.fun ul {
     display: flex;
-   justify-content: space-between;
-   margin-left:15%;
-   margin-right:15%;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
 }
-.fun ul li{
+
+.fun ul li {
     height: 10vw;
     width: 10vw;
     background: #fff;
     text-align: center;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
     list-style: none;
     color: #fff;
 }
-.fun ul li i{
+
+.fun ul li i {
     color: #ffffff;
     font-size: 500%;
     padding: 10%;
 }
 
-.fun ul li span{
+.fun ul li span {
     font-weight: 200;
     color: #fc2d4b;
 }
+
 /* FUN section End */
 
 /* newsletter section Start */
-.newsletter{
+.newsletter {
     width: 100%;
     height: 300px;
-    background:linear-gradient(rgba(120, 104, 158, 0.6),rgba(120, 104, 158, 0.6)),url(../img/cut_aroplane.jpg);
+    background: linear-gradient(rgba(120, 104, 158, 0.6), rgba(120, 104, 158, 0.6)), url(../img/cut_aroplane.jpg);
     background-size: 100% 200%;
     position: relative;
-    
+
 }
-.newsletter h2{ 
+
+.newsletter h2 {
     top: 40%;
     left: 55%;
     color: black;
@@ -174,88 +197,99 @@ font-family: 'Franklin Gothic Medium',;
     color: #fff;
     text-align: center;
 }
-.newsletter p{
-top: 55%;
-left: 55%;
-font: 100;
-position: absolute;
-color: #fff;
-text-align: center;
+
+.newsletter p {
+    top: 55%;
+    left: 55%;
+    font: 100;
+    position: absolute;
+    color: #fff;
+    text-align: center;
 }
-.newsletter input{
-top: 70%;
-left: 53%;
-position: absolute;
-color: #fff;
-background: none;
-border: solid #fff 2px;
-width: 500px;
-height: 40px;
-text-align: left;
-}
-.newsletter button{
+
+.newsletter input {
     top: 70%;
-left: 80%;
-position: absolute;
-color: #0c0c0c;
-background: #fff;
-border: solid #fff 2px;
-height: 40px;
-width: 100px;
+    left: 53%;
+    position: absolute;
+    color: #fff;
+    background: none;
+    border: solid #fff 2px;
+    width: 500px;
+    height: 40px;
+    text-align: left;
+}
+
+.newsletter button {
+    top: 70%;
+    left: 80%;
+    position: absolute;
+    color: #0c0c0c;
+    background: #fff;
+    border: solid #fff 2px;
+    height: 40px;
+    width: 100px;
 
 }
+
 /* newsletter section End */
 
 /* Place section Start */
-.place{
+.place {
     width: 100%;
     height: auto;
     color: #fff;
     padding: 0px;
     background: #1F172F;
     text-align: center;
-   
+
 }
-.place h1{
+
+.place h1 {
     padding: 50px;
 
 }
-.place ul{
-display: grid;
-grid-template-columns: 20% 20% 20% 20%;
-grid-template-rows: 400px 2px;
-grid-gap:30px;
-margin-left: 12.5%;
+
+.place ul {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 400px 2px;
+    grid-gap: 30px;
+    margin-left: 12.5%;
 }
-.place ul li{
+
+.place ul li {
     list-style: none;
     border-radius: 5px;
     text-align: center;
     background: #ffffff;
     border: solid #fff 3px;
-    
+
 }
-.place ul li h3{
+
+.place ul li h3 {
     color: #000000;
     text-align: left;
-    padding: 25px 50px; 
+    padding: 25px 50px;
 }
-.place ul li p{
+
+.place ul li p {
     color: #000000;
     text-align: left;
     padding: 0px 50px;
 }
+
 /* Place section End */
 
 /* Calculate section Start */
-.calculate{
+.calculate {
     width: 100%;
     height: 300px;
-    background:url(../img/calculate.jpg) ;
+    background: url(../img/calculate.jpg);
     background-size: 120% 300%;
     position: relative;
 }
-.calculate h1{
+
+.calculate h1 {
     left: 13%;
     position: absolute;
     font-size: 45px;
@@ -264,7 +298,7 @@ margin-left: 12.5%;
     font-weight: 500;
 }
 
-.calculate H4{
+.calculate H4 {
     left: 13%;
     position: absolute;
     font-size: 25px;
@@ -272,31 +306,36 @@ margin-left: 12.5%;
     margin-top: 123px;
     font-weight: 500;
 }
-.calculate ul{
+
+.calculate ul {
     display: inline-flex;
     left: 13%;
     top: 160px;
     position: absolute;
 }
-.calculate ul li{
+
+.calculate ul li {
     list-style: none;
     color: #fff;
-    margin-right:10px;
+    margin-right: 10px;
     margin-top: 20px;
 }
-.calculate ul li input{
+
+.calculate ul li input {
     width: 270px;
     height: 50px;
     background: #ffffff;
     border: none;
 }
-.calculate ul li select{
+
+.calculate ul li select {
     width: 270px;
     height: 50px;
     background: #fff;
     margin-left: 5px;
     border: none;
 }
+
 .blog {
     width: 100%;
     height: 350px;
@@ -305,49 +344,91 @@ margin-left: 12.5%;
     text-align: center;
     margin-top: 40px;
 }
-.blog p{
+
+.blog p {
     margin-top: 20px;
     font-size: 18px;
 }
 
-.context{
+.context {
     background: #ffffff;
     width: 70%;
     height: 300px;
     margin-left: 20%;
     margin-top: 2%;
-    align-items:flex-end ;
+    align-items: flex-end;
 
-   
+
 }
 
 /* ========================== */
 .context ul {
-    display:flex;
+    display: flex;
     text-align: left;
 }
 
-.context ul li{
+.context ul li {
     list-style: none;
 }
-.context h4,p{
+
+.context h4,
+p {
     padding-left: 25px;
     padding-right: 70px;
 }
-.context input{
-    
-}
 
+.context input {}
 
-.footer{
+/* Footer section Start */
+footer {
     width: 100%;
     height: 500px;
-    background: #1D1928;
-    color: #fff;
+    color: #57545D;
+    background: #211B29;
+}
+
+.topfoot {
+    display: flex;
+    justify-content: space-between;
+    margin: 15%;
+    margin-top: 60px;
+
+}
+.topfoot h2{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.topfoot ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+.internation{
+    display: flex;
+ 
+    
+
+ 
+}
+.internation ul{
+   
+    margin-right: 50px;
+  
+}
+
+.internation h2 {
+    margin-bottom: 20px;
+}
+.internation ul li{
+    list-style: none;
+    margin: 10px;
 }
 
 
-.banner form button.smt:hover{
+/* Footer section End */
+
+
+.banner form button.smt:hover {
     color: #fff;
     background: #2b5c0b;
 

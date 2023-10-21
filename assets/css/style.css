@@ -171,10 +171,7 @@ header ul li a.active {
     padding: 10%;
 }
 
-.fun ul li span {
-    font-weight: 200;
-    color: #fc2d4b;
-}
+
 
 /* FUN section End */
 
@@ -382,7 +379,7 @@ p {
 /* Footer section Start */
 footer {
     width: 100%;
-    height: 500px;
+    height: 550px;
     color: #57545D;
     background: #211B29;
 }
@@ -390,7 +387,7 @@ footer {
 .topfoot {
     display: flex;
     justify-content: space-between;
-    margin: 15%;
+    margin:2.5% 15%;
     margin-top: 60px;
 
 }
@@ -424,6 +421,30 @@ footer {
     margin: 10px;
 }
 
+.downfoot{
+    margin: 0px 15%;
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+.downfoot ul{
+    display: flex;
+    
+}
+.downfoot ul li{
+    list-style: none;
+    margin-right: 30px;
+    
+}
+footer p{
+    margin: 0% 18%;
+    top: 3993px;
+    position: absolute;
+}
+.downfoot ul li a i{
+    font-size: 30px;
+}
 
 /* Footer section End */
 

@@ -346,3 +346,9 @@ margin-left: 12.5%;
     color: #fff;
 }
 
+
+.banner form button.smt:hover{
+    color: #fff;
+    background: #2b5c0b;
+
+}

@@ -459,22 +459,75 @@ footer p{
 
 
 /* Media Quiry Added */
-@media only screen and (max-width: 576px) {
-    header{
-        background: #fc2d4b;
-        width: 1000px;
-        height: 200px;
+@media screen and (max-width:576px) 
+{
+    header {
+        width: 100%;
+        height: 130px;
+        padding: 0px 10px;
     }
+
+    .banner h2 {
+        top: 14%;
+        left: 21%;
+        color: black;
+        font-size: 26px;
+    }
+
+    .banner h1 {
+        top: 2%;
+        left: 18%;
+        color: black;
+        font-size: 47px;
+    }
+    .banner form {
+        width: 100%;
+        height: 58%;
+        display: inline;
+        bottom: 0%;
+        padding: 0px;
+        left:0%
+    }
+    
+
+    .banner form .searchForm div select {
+        width: 96px;
+        height: 16px;
+    }
+    .banner form .searchForm input, .banner form .searchForm Select {
+        width: 100%;
+        height: 65px;
+    
+    }
+    .banner form button {
+        width: 100%;
+        height: 38px;
+    }
+    .banner form button.smt{
+        width: 100%;
+        height: 52Px;
+        border-radius: 5px;
+        margin-left: 0%;
+
+    }
+     
 }
 
-@media only screen and (max-width: 268px) {
-    header{
-        background: #fc2d4b;
-        width: 268px;
-        height: 300px;
-    }
+@media screen and (max-width:768px) and (min-width:576px)
+{
+
+
 }
 
+@media screen and (max-width:992px) and (min-width:576px)
+{
 
+}
 
+@media screen and (max-width:1200px) and (min-width:992px)
+{
+    
+}
+
+@media screen and (max-width:1400px) and (min-width:1200px)
 /* Media Quiry Added */

@@ -454,3 +454,27 @@ footer p{
     background: #2b5c0b;
 
 }
+
+
+
+
+/* Media Quiry Added */
+@media only screen and (max-width: 576px) {
+    header{
+        background: #fc2d4b;
+        width: 1000px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 268px) {
+    header{
+        background: #fc2d4b;
+        width: 268px;
+        height: 300px;
+    }
+}
+
+
+
+/* Media Quiry Added */
